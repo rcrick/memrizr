@@ -1,4 +1,4 @@
-module github.com/rcrick/memrizr
+module github.com/rcrick/memrizr/account
 
 go 1.16
 

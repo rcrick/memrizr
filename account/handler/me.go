@@ -6,8 +6,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/rcrick/memrizr/model"
-	"github.com/rcrick/memrizr/model/apperrors"
+	"github.com/rcrick/memrizr/account/model"
+	"github.com/rcrick/memrizr/account/model/apperrors"
 )
 
 func (h *Handler) Me(c *gin.Context) {

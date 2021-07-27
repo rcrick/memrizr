@@ -6,7 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/rcrick/memrizr/model"
+	"github.com/rcrick/memrizr/account/model"
 )
 
 // Handler struct holds required services for handler to function
@@ -17,7 +17,7 @@ type Handler struct {
 // Config will hold services that will eventually be injected into this
 // handler layer on handler initialization
 type Config struct {
-	R *gin.Engine
+	R           *gin.Engine
 	UserService model.UserService
 }
 

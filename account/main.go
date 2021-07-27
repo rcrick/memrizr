@@ -11,7 +11,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/rcrick/memrizr/handler"
+	"github.com/rcrick/memrizr/account/handler"
 )
 
 func main() {
